@@ -55,5 +55,10 @@ def main():
         st.session_state.chat_history.append(message)
         st.write("Chatbot:", response['response'])
 
+    # Submit button
+    if st.button("Submit"):
+        # Placeholder logic for submission
+        st.write("😊")  # Placeholder message
+
 if __name__ == "__main__":
     main()
